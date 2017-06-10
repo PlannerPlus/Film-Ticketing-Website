@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>30</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>SimpleClass
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>30</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=0..1
+teaches to &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>40</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>570</x>
+      <y>30</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Note..</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>300</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Hotel
+-
+address
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>490</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>traveler
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>300</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>City
+-
+name
+isCapital</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>230</y>
+      <w>100</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;session&gt;&gt;
+SearchForm
+-
+city name
+check in date
+# nights
+check out date
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>490</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>System
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>470</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Request
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>160</y>
+      <w>310</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1
+located-on &gt;</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0;290.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>720</x>
+      <y>100</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Note..
+code standard
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>110</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;60.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>150</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Location
+-
+type:{town,city,reg}
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>200</y>
+      <w>30</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>180</x>
+      <y>470</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>database
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>470</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Selection
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>710</x>
+      <y>300</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Region
+-
+name
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>300</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>300</y>
+      <w>100</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Town
+-
+name
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>300</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>200</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200.0;10.0;200.0;50.0;10.0;50.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>200</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;200.0;50.0;200.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>440</y>
+      <w>410</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=.
+X</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
