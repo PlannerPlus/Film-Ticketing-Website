@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>20</x>
+      <y>930</y>
+      <w>150</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;server&gt;&gt;
+Cache
+{Redis}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>20</x>
+      <y>770</y>
+      <w>150</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;server&gt;&gt;
+DBMS
+{MySQL}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>340</x>
+      <y>790</y>
+      <w>410</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;server&gt;&gt;
+Web Server
+{OS=Linux}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>370</x>
+      <y>870</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+监听端口</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>570</x>
+      <y>870</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+处理业务逻辑</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>570</x>
+      <y>960</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+响应HTTP请求</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>880</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>900</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>810</y>
+      <w>200</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Jdbc</panel_attributes>
+    <additional_attributes>180.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>820</y>
+      <w>200</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>180.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>330</x>
+      <y>1040</y>
+      <w>420</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;PC client&gt;&gt;
+Browser
+{html5,css3}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>350</x>
+      <y>1130</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+发送HTTP请求</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>550</x>
+      <y>1130</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+处理并渲染界面</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>990</y>
+      <w>30</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>880</y>
+      <w>120</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+网络连接
+HTTP协议</panel_attributes>
+    <additional_attributes>80.0;270.0;10.0;270.0;10.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+</diagram>
